@@ -10,7 +10,7 @@ DevTools est une page web conçue pour regrouper plusieurs outils utiles aux dé
 
 - CSS : Mise en forme et design de l'interface
 
-- JavaScript : Fonctionnalités interactives
+- JavaScript : Animation du Background
 
 ## Personnalisation
 
