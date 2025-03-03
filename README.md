@@ -1,4 +1,4 @@
-<img src="">
+<img src="https://github.com/Denisdcb/DevTools/blob/main/assets/dev_tools_screenshot.png">
 
 ## DevTools
 
@@ -40,7 +40,7 @@ git clone https://github.com/Denisdcb/DevTools.git
 
 Ouvrez le fichier index.html dans votre navigateur.
 
-Si vous souhaitez afficher la page en page d'acceuil de votre navigateur, ajouter le chemin abosulut du fichier index.html dnas les paramètres de la page d'accueil de votre navigateur.
+Si vous souhaitez afficher la page en page d'acceuil de votre navigateur, ajouter le chemin abosulu du fichier index.html dans les paramètres de la page d'accueil de votre navigateur.
 
 Profitez des outils et personnalisez l'interface selon vos besoins.
 
