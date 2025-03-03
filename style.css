@@ -1,0 +1,176 @@
+.alumni-sans-pinstripe-regular {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    color: whitesmoke;
+    background-color: #000;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+  }
+  
+  canvas {
+    position: absolute;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;  /* Placer le canvas derrière tout le contenu */
+  }
+  
+  h2{
+    padding: 5px;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 2px 2px 20px limegreen;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 2;
+    color: white;
+  }
+  
+  .search-bar-main {
+    position: sticky;
+    top: 0;
+  }
+  
+  .search-bar, .search-bar-main {
+    background-color: rgba(19, 19, 19, 0.75);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .search-bar img, .search-bar-main img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .search-bar-main form {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .search-bar-main input {
+    width: 90%;
+    height: 50%;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    padding-left: 15px;
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 0px 0px 15px limegreen;
+  }
+  
+  .search-bar-main input::placeholder {
+    text-align: center;
+    font-size: 2rem;
+    color: whitesmoke;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    letter-spacing: 5px;
+  }
+  
+  .search-bar-main input:focus{
+    outline: #131313;
+  }
+  
+  
+  .search-bar button, .search-bar-main button {
+    width: 8%;
+    height: 50%;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: seagreen;
+    color: whitesmoke;
+    font-size: 1.7rem;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .search-bar button:hover, .search-bar-main button:hover {
+    background-color: limegreen;
+  }
+  
+  .tools-container {
+    width: 98%;
+    margin: auto;
+    display: flex;
+    gap: 2%;
+    flex-wrap: wrap;
+  
+  }
+  
+  .search-bar .search-content {
+    width: 82%;
+    font-size: 2.5rem;
+  }
+  
+  .tool-container {
+    margin-bottom: 10px;
+    width: 32%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px limegreen;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  
+  .tool-container img {
+    width: 95px;
+    height: 95px;
+  }
+  
+  .tool-container a, .btn {
+    align-self: flex-end;
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+    width: 90px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: seagreen;
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .tool-container a:hover, .btn:hover {
+    background-color: limegreen;
+  }
+  
+  .rotate {
+    animation: rotate 3s linear infinite;
+  }
+  
+  @keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+  }

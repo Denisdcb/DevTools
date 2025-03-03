@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+
+</head>
+<body>
+
+    <!-- Canvas pour l'animation des bulles -->
+    <canvas id="backgroundCanvas"></canvas>
+
+    <!-- Contenu principal -->
+    <div class="content">
+        <div class="search-bar-main">
+            <img src="assets/google.png">
+            <form action="http://google.com/search" method="get" target="_blank">
+                <input type="text" name="q" placeholder="Google search">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        <div class="search-bar">
+            <img src="assets/google.png">
+            <h2 class="search-content">Google Traduction</h2>
+            <a class="btn" href="https://translate.google.com/?hl=fr&tab=TT&sl=auto&tl=fr&op=translate" target="_blank">Go</a>
+        </div>
+        <div class="search-bar">
+            <img src="assets/google.png">
+            <h2 class="search-content">Google Maps</h2>
+            <a class="btn" href="https://www.google.fr/maps/" target="_blank">Go</a>
+        </div>
+        <h2>Dev Tools</h2>
+        <div class="tools-container">
+            <div class="tool-container">
+                <img src="assets/gpt.png">
+                <p>ChatGPT</p>
+                <a href="http://chatgpt.com" target="_blank">Go</a>
+            </div>
+            <div class="tool-container">
+                <img src="assets/github.png">
+                <p>GitHub</p>
+                <a href="https://github.com/" target="_blank">Go</a>
+            </div>
+            <div class="tool-container">
+                <img src="assets/color.png" class="rotate">
+                <p>HTML Colors</p>
+                <a href="https://htmlcolorcodes.com/fr/" target="_blank">Go</a>
+            </div>
+            <div class="tool-container">
+                <img src="assets/v0.png">
+                <p>V 0</p>
+                <a href="https://v0.dev/" target="_blank">Go</a>
+            </div>
+            <div class="tool-container">
+                <img src="assets/copilot.png">
+                <p>Copilot</p>
+                <a href="https://copilot.microsoft.com/" target="_blank">Go</a>
+            </div>
+            <div class="tool-container">
+                <img src="assets/bolt.png">
+                <p>Bolt</p>
+                <a href="http://bolt.new" target="_blank">Go</a>
+            </div>
+            <div class="tool-container">
+                <img src="assets/wiseduck.png">
+                <p>Wise Ducks Dev</p>
+                <a href="https://wiseduckdev.com/fr/gpts" target="_blank">Go</a>
+            </div>
+            <div class="tool-container">
+                <img src="assets/tailwind.png">
+                <p>TailWind</p>
+                <a href="https://tailwindcss.com/" target="_blank">Go</a>
+            </div>
+            <div class="tool-container">
+                <img src="assets/figma.png">
+                <p>Figma</p>
+                <a href="https://www.figma.com/" target="_blank">Go</a>
+            </div>
+            <div class="tool-container">
+                <img src="assets/deepseek.png">
+                <p>DeepSeek</p>
+                <a href="https://chat.deepseek.com/" target="_blank">Go</a>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="background.js"></script>
+</body>
+</html>
